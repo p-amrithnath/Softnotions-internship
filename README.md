@@ -15,7 +15,7 @@ To run this application locally, follow these steps:
 
 1. **Clone the repository**: 
     ```bash
-    git clone https://github.com/Abin-T-Sunil/Softnotions-internship.git
+    git clone https://github.com/p-amrithnath/Softnotions-internship
     ```
 
 2. **Navigate to the project directory**:
