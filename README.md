@@ -1,83 +1,37 @@
-# MERN Stack Internship Screening Tasks
+# Form and Excel generation
 
-Welcome to the MERN Stack Internship Screening for Softnotions. This document outlines a series of tasks designed to assess your proficiency in full-stack web development using MongoDB, Express.js, React.js, and Node.js (MERN). Successful completion of these tasks will lead to an interview for a 4-6 month academic internship with us.
+This is a web application built with React that allows users to fill out a modern form and generate an Excel sheet with the entered data. The form includes fields for name, age, level, and gender.
 
-## About Softnotions
+# Prerequisites
 
-> Softnotions is a niche innovation headquartered in the capital state of Kerala, which is reimagining the possibilities of traditional business solutions. The company's story is interesting, to say the least; It is an emerging company with a sense of innovation, firm goals, bright prospects, growth in all fields, and also four-dimensional customers. We have customers in most parts of the world.
+Before running the application, ensure you have the following installed on your computer:
 
-> Softnotions was just an idea, but when the tech bubble finally burst, the company's growth was steady and organic. Despite the economic crisis in 2008, it had a strong technology foundation, and it had a niche that would be difficult to replicate or replicate easily. The company was indeed not insulated from the financial brunt of the world around it. The steady and gradual growth paved stronger roots and, yet we are cherishing the yield.
-Join us as we embark on this journey and discover what it means to be at the intersection of technology and human development.
+Node.js (v14.x or higher),
+npm (v6.x or higher)
 
-## How to Submit Your Work
+# Installation
 
-- Fork this repository.
-- Complete each task in a separate folder within your fork.
-- Ensure your code is well-documented and includes instructions on how to run it.
-- Submit your work by creating a pull request to the original repository.
+To run this application locally, follow these steps:
 
-## Task Descriptions
-> #### Select and complete only one of the listed tasks
+1. **Clone the repository**: 
+    ```bash
+    git clone https://github.com/Abin-T-Sunil/Softnotions-internship.git
+    ```
 
-### Task 1: Basic CRUD Web Application
+2. **Navigate to the project directory**:
+    ```bash
+    cd task
+    ```
 
-**Objective:** Set up a full-stack web application to perform basic Create operations.
+3. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-**Requirements:**
-- Create a project folder structure and set up your development environment with Node.js, MongoDB, and React.js.
-- Develop a web page with two input boxes (for a name and age) and a submit button to save data in MongoDB.
-- Implement error handling for data submission.
-- Style the web page using CSS, Material UI, Tailwind CSS, or Bootstrap.
-
-### Task 2: Data Fetching and Display
-
-**Objective:** Develop a web application that fetches and displays data based on user interaction.
-
-**Requirements:**
-- Store data for three individuals in MongoDB, with details including name, age, and position (First, Second, Third).
-- Create three API endpoints for GET requests to fetch individual details by position.
-- Design a web page with buttons to trigger these GET requests and display the fetched data.
-- Style the web page using recommended frameworks.
-
-### Task 3: File Upload and PDF Generation
-
-**Objective:** Build a web application that allows users to upload an image and generate a PDF.
-
-**Requirements:**
-- Enable users to upload an image and enter a name.
-- Generate a PDF with the uploaded image and entered name in a new tab.
-- Style the web page for an enhanced user experience.
-
-### Task 4: Form Submission and Excel Generation
-
-**Objective:** Create a web application that captures user input and generates an Excel sheet.
-
-**Requirements:**
-- Include input boxes for a name and age, a radio button group for selecting level, and a checkbox group for gender.
-- Implement a submit button that generates an Excel sheet with the entered data in a new tab.
-- Style the web page using recommended frameworks.
-
-## Evaluation Criteria
-
-- Code quality and clarity.
-- Adherence to task requirements.
-- Creativity in problem-solving.
-- User interface design and usability.
-  
-#
-
-#### For the MERN Stack Internship Screening at Softnotions, please complete the following steps after selecting and completing one of the provided tasks:
-
-- Push your completed task to a GitHub repository.
-- Visit the following link to access the application form: [Apply here](https://mulearn.org/careers)
-- Submit the GitHub repository link containing your completed task through the application form.
-
-This process is integral to your application, enabling the review team to evaluate your work. Make sure to follow these instructions carefully to ensure your application is successfully processed.
-
-
-
-
-
-
-
-Thank you for your interest in the MERN Stack Internship at Softnotions. We look forward to reviewing your submissions. Good luck!
+4. **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+# screenshots
+![Form Preview](images/form_preview.png)
+   

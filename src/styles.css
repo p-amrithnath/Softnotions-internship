@@ -1,0 +1,108 @@
+/* styles.css */
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../images/b_image.jpeg') center center/cover no-repeat; /* Set the background image */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    width: 80%;
+    max-width: 400px;
+    background-color: rgba(32, 33, 33, 0.4); /* Set the background color with transparency */
+    padding: 15px 100px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Apply a blur effect to create a glass effect */
+  }
+  
+  .form-container h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #d7dadb;
+  }
+  
+  
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .input-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field input:focus {
+    outline: none;
+    border-color: #1995ad;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .radio-group,
+  .checkbox-group {
+    margin-bottom: 20px;
+  }
+  
+  .radio-group label,
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .radio-group input[type="radio"],
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px 0;
+    background-color: transparent; /* Make the button transparent */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 86, 179, 0.8); /* Change the background color on hover with transparency */
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
