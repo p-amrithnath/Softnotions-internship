@@ -20,7 +20,7 @@ To run this application locally, follow these steps:
 
 2. **Navigate to the project directory**:
     ```bash
-    cd task
+    cd Softnotions-internship
     ```
 
 3. **Install dependencies**:
